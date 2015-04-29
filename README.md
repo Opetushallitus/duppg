@@ -20,7 +20,8 @@ You need a functional Docker environment. Setup varies by platform.
 Usage
 -----
 
-  - Add wanted databases into `pgpass` file
+  - Add wanted databases into `pgpass` file (take a copy from
+    `pgpass.example`)
   - Build the image with `docker build -t pg-clone .`. Needs to be run when
     state from `pgpass` databases needs to be refreshed.
   - Default command to run the image is `docker run -it -p 5432:5432 --rm
