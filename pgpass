@@ -1,0 +1,4 @@
+# Before building Docker image, add a row in following format, without '#',
+# for each database to clone:
+#
+# hostname:port:database:username:password
